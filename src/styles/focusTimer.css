@@ -1,0 +1,154 @@
+/* body{
+    background-color: rgb(25, 25, 25);
+    color: #9c9999;
+} */
+
+.focus-timer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vw;
+    max-width: 400px;
+    margin-top: 20px;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0.2px 0.2px 10px -4px #9c9999;
+}
+.focus-timer-heading{
+    border-top: 0.1px groove #9c9999;
+    border-bottom: 0.1px groove #9c9999;
+    width: 100%;
+    padding: 15px 0;
+    font-weight: bold;
+    font-size: 1.1rem;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 0;
+}
+.focus-timer-heading img{
+    width: 25px;
+    height: 20px;
+    
+}
+
+.focus-timer-h3{
+    font-size: 1.5rem;
+    color: #DA7422;
+    margin-top: 10px;
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.focus-timer-btn-container{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    /* background: linear-gradient(90deg, #E20B8C, #F84B00); */
+}
+.focus-timer-button, .focus-timer-export-btn, .focus-timer-viewmode-button, .active{
+    background: linear-gradient(90deg, #F55C7A, #ac6700);
+    color: white;
+    box-shadow: 0.2px 0.2px 5px 0px #9c9999;
+    cursor: pointer;
+    margin: 10px 0px;
+    border: none;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.focus-timer-button:hover, .focus-timer-export-btn:hover{
+    background: #cb391f;
+    /* color: #e6e6e6; */
+}
+
+/* progress bar style */
+.progress-wrapper{
+    width: 220px;
+    height: 220px;
+    position: relative;
+}
+
+.progress-ring {
+    transform: rotate(-90deg);
+  }
+
+.progress-ring-bg {
+    fill: none;
+    stroke: #e6e6e6;
+    stroke-width: 8;
+  }
+  
+  .progress-ring-fill {
+    fill: none;
+    stroke: #4caf50;
+    stroke-width: 8;
+    stroke-linecap: round;
+    stroke-dasharray: 502.4;
+    transition: stroke-dashoffset 1s linear;
+  }
+
+  /* styles of productivity dashboard */
+  .focus-timer-export-btn{
+    font-size: 0.8rem;
+    margin: 0;
+  }
+  .dashboard-header{
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+
+  .focustimer-toggle-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    /* border-radius: 5px; */
+  }
+
+  .focustimer-toggle-container #daily-btn{
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    /* border: 0.1px solid #9c9999; */
+  }
+  .focustimer-toggle-container  #weekly-btn{
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    /* box-shadow: 0px 0px 5px 0px #9c9999; */
+    
+  }
+  .focustimer-toggle-container button{
+    border: 0.1px solid #f9dbbd;
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    font-weight: bold;
+    /* background-color: #e6e6e6;
+    color: black; */
+  }
+  .focustimer-toggle-container button:hover{
+    transform: none;
+    background-color: #cb391f;
+    color: #fff;
+  }
+
+  /* toggle btn styles */
+  .user-list-toggle-container{
+    position: absolute;
+  }
+
+  .active{
+    background: #cb391f;
+  }
+
+  .focus-timer-viewmode-button{
+    background: #f9dbbd;
+    color: #000;
+  }
