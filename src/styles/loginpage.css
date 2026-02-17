@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    /* background-color: aqua; */
+}
+div{
+    margin: auto;
+    /* width: 20rem; */
+    /* height: 20rem; */
+    margin-top: 10rem;
+    text-align: center;
+    /* display: flex;
+    flex-direction: column; */
+    /* background-color: aqua; */
+}
+input,button,p{
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 5px;
+    display: block;
+
+}
+#buttons{
+    margin: 0;
+    text-align: center;
+}
+button{
+    display: inline-block;
+    margin-right: 20px;
+    background-color: rgb(48, 162, 48);
+    border: none;
+    border-radius: 1rem;
+}
+p{
+    color: red;
+    font-size: 0.8rem;
+    text-align: center;
+    font-style: italic;
+    display: none;
+}
+#tryAgainbtn{
+    border: none;
+    background-color: white;
+    color: rgb(7, 0, 211);
+    text-decoration: underline;
+    display: none;
+    
+}
